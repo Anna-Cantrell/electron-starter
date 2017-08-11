@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Crisp Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="crispgame.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="gameContainer">
+
+
+        <div id="secondStage-container">
+            <div id="studio"></div>
+            <div id="ceo">
+            <div id="ceo-holder">
+                <img src="assets/ceo.png" id="ceo-leave">
+                <img src="assets/ceo.png" id="ceo-talker">
+            </div>
+        </div>
+            <div id="talkBubble">
+                <div id="talk4" class="text-area">Sorry eh...that's all i have.. Try not to get stung!!<div class="enterBtn">enter</div></div>
+                <div id="talk3" class="text-area">You received a pat on the back ... you're filled with determination!<div class="enterBtn">enter</div></div>
+                <div id="talk2" class="text-area">You have to help us, but it's dangerous to go alone, <br>take this!<div class="enterBtn">enter</div></div>
+                <div id="talk1" class="text-area">Anna! Thank god you're here, giant hornets are terrorizing<br> the office!<div class="enterBtn">enter</div></div>
+            </div>
+
+            <div id="stinger_1" class="stinger">
+            <img src="assets/hornet.png" id="small-flyer">
+            </div>
+            <div id="stinger_2" class="stinger"><img src="assets/hornet.png" id="small-flyer">
+            </div>
+            <div id="stinger_3" class="stinger"><img src="assets/hornet.png" id="small-flyer">
+            </div>
+
+            <div id="hornet">
+                <div id="hornet-holder">
+                    <img src="assets/hornet.png" id="hornet-flyer">
+                </div>
+            </div>
+
+        </div> <!-- second stage -->
+
+         <div id="darkScreen"></div>
+
+
+        <div id="firstStage-container">
+          <div id= "parkingLot">
+              <div class="left-grass"></div>
+              <div class="corner-grass"></div>
+              <div class="bottom-grass"></div>
+              <div class="driveway-left"></div>
+              <div class="driveway-right"></div>
+              <div class="bottom-right-grass"></div>
+            <div id="building"></div>
+            <div class="space"></div><div id="doorway"></div>
+            <div id="lotPrompt" class="text-area">Uh oh, something seems to be wrong at CRISP. <br>Better get there, quick!</div>
+          </div>
+        </div>
+
+         <div id="anna">
+            <div id="anna-holder">
+                <img src="assets/anna.png" id="walker">
+                <img src="assets/anna.png" id="sprite">
+                <img src="assets/anna.png" id="game-anna">
+            </div>
+        </div>
+
+            <div id="endCongrats">
+              <div id="end-image"></div>
+                <div id="end-message">The hornets seems to have gotten bored <br>and flown away... I'll call that a win!
+                   </div>
+                 <div class="scores">score: <span id="score">0</span></div>
+                <div id="end-buttons">
+                <div id="retry">retry</div>
+                <div id="secret-roombtn">Secret Room</div>
+                </div>
+            </div>
+            <div id="secret-room">
+                <div id="about-me">
+                <div class="column">My name is Anna Cantrell and I am an extremely dedicated and passionate designer and developer. I never stop pursuing knowledge and the refinement of my craft. I am currently working on my BFA in graphic design but also concurrently pursuing a web development certification.</div>
+                <div class="column">I'm a natural leader and work well in both teams or alone. My experience in the military taught me to be disciplined and coordinated in a group. My attention to detail, drive, ambition, and ability to chase away rogue hornets make me an excellent asset to have on any team.</div>
+                </div>
+                <div id="restart">restart</div>
+            </div>
+
+
+
+        <div id="titlescreen">
+
+        <video autoplay>
+  <source src="assets/Crisp-web-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+            <div id="startBtn"><div class="bobber">Press Enter</div></div>
+        </div>
+            <div id="skip">skip</div>
+
+
+    </div> <!-- gameContainer -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script src="crispgame.js"></script>
+    </body>
+</html>
