@@ -86,12 +86,12 @@ var parkingLot_walk = setInterval(function () {
        talking = true;
       }
 
-      if(parseInt(parkingLot.css('margin-top')) > 0){
+      if(parseInt(parkingLot.css('margin-top')) > 0) {
          parkingLot.stop();
          parkingLot.css('margin-top', 0);
       }
 
-      if(parseInt(parkingLot.css('margin-top')) > -500){
+      if(parseInt(parkingLot.css('margin-top')) > -500) {
          lotPrompt.fadeOut(100);
       }
 

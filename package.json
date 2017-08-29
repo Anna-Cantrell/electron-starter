@@ -7,4 +7,5 @@
   "start": "electron .",
   "package": "electron-packager ./ CrispGame --platform=darwin --out ~/Desktop/CrispGame --electronVersion 1.7.5 --overwrite --icon=./app/assets/icon.icns"
 }
+
 }
