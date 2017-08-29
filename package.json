@@ -5,7 +5,6 @@
 
   "scripts": {
   "start": "electron .",
-  "package": "electron-packager ./ CrispGame --all --out ~/Desktop/CrispGame --electronVersion 0.30.2 --overwrite --icon=./app/assets/icon.icns"
+  "package": "electron-packager ./ CrispGame --platform=darwin --out ~/Desktop/CrispGame --electronVersion 1.7.5 --overwrite --icon=./app/assets/icon.icns"
 }
-
 }

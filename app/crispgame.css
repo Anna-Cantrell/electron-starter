@@ -1,6 +1,7 @@
 html, body {
     overflow: hidden;
     font-size: 10px;
+    background-color: #111213;
 }
 
 #gameContainer {
